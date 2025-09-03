@@ -2,16 +2,16 @@
   "games": [
     {
       "name": "Powerball",
-      "jackpot": 1100000000.0,
-      "cashValue": 500000000.0,
-      "lastUpdated": "2025-09-03T18:46:00Z",
+      "jackpot": 1200000000.0,
+      "cashValue": 580000000.0,
+      "lastUpdated": "2025-09-03T18:47:00Z",
       "nextDraw": "Wed, Sep 3, 2025"
     },
     {
       "name": "Mega Millions",
-      "jackpot": 300000000.0,
-      "cashValue": 100000000.0,
-      "lastUpdated": "2025-09-03T18:46:00Z",
+      "jackpot": 310000000.0,
+      "cashValue": 120000000.0,
+      "lastUpdated": "2025-09-03T18:47:00Z",
       "nextDraw": "Fri, Sep 5, 2025"
     }
   ]
