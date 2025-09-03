@@ -4,14 +4,14 @@
       "name": "Powerball",
       "jackpot": 1200000000.0,
       "cashValue": 580000000.0,
-      "lastUpdated": "2025-09-03T18:47:00Z",
+      "lastUpdated": "2025-09-03T09:47:00Z",
       "nextDraw": "Wed, Sep 3, 2025"
     },
     {
       "name": "Mega Millions",
       "jackpot": 310000000.0,
       "cashValue": 120000000.0,
-      "lastUpdated": "2025-09-03T18:47:00Z",
+      "lastUpdated": "2025-09-03T09:47:00Z",
       "nextDraw": "Fri, Sep 5, 2025"
     }
   ]
