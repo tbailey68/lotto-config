@@ -9,10 +9,10 @@
     },
     {
       "name": "Mega Millions",
-      "jackpot": 50000000.0,
-      "cashValue": 21500000.0,
-      "nextDraw": "2026-07-31",
-      "lastUpdated": "2026-07-29T05:36:08Z"
+      "jackpot": 60000000.0,
+      "cashValue": 25500000.0,
+      "nextDraw": "2026-08-04",
+      "lastUpdated": "2026-08-01T04:57:59Z"
     }
   ]
 }
