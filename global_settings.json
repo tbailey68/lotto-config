@@ -2,10 +2,10 @@
   "games": [
     {
       "name": "Powerball",
-      "jackpot": 975000000.0,
-      "cashValue": 422300000.0,
+      "jackpot": 1000000000.0,
+      "cashValue": 433100000.0,
       "nextDraw": "2026-08-12",
-      "lastUpdated": "2026-08-11T05:19:39Z"
+      "lastUpdated": "2026-08-12T06:47:53Z"
     },
     {
       "name": "Mega Millions",
