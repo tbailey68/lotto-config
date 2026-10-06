@@ -1,41 +1,30 @@
-[2026-10-04 00:35:11,351] INFO === Starting automate_lottery_update.py ===
-[2026-10-04 00:35:11,352] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
-[2026-10-04 00:35:11,399] INFO Processing state: ND-lottery
-[2026-10-04 00:35:14,099] INFO [SUCCESS] Downloaded for ND-lottery
-[2026-10-04 00:35:14,898] INFO [SUCCESS] Extracted for ND-lottery
-[2026-10-04 00:35:14,899] INFO Processing game: Powerball for state: ND-lottery
-[2026-10-04 00:35:14,900] INFO Recording extraction for ND-lottery Powerball
-[2026-10-04 00:35:14,900] INFO Recording extraction: state=ND-lottery, game=Powerball, success=True, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:14,901] INFO Adding pending set for ND-lottery Powerball
-[2026-10-04 00:35:14,902] INFO Adding pending set: game=Powerball, state=ND-lottery, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:14,903] INFO ND-lottery Powerball held for corroboration.
-[2026-10-04 00:35:14,903] INFO Processing game: Mega Millions for state: ND-lottery
-[2026-10-04 00:35:14,904] INFO ND-lottery Mega Millions matches global settings. Ignoring.
-[2026-10-04 00:35:14,904] INFO Processing state: TX-lottery
-[2026-10-04 00:35:16,094] INFO [SUCCESS] Downloaded for TX-lottery
-[2026-10-04 00:35:16,520] INFO [SUCCESS] Extracted for TX-lottery
-[2026-10-04 00:35:16,526] INFO Processing game: Powerball for state: TX-lottery
-[2026-10-04 00:35:16,527] INFO Recording extraction for TX-lottery Powerball
-[2026-10-04 00:35:16,527] INFO Recording extraction: state=TX-lottery, game=Powerball, success=True, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:16,529] INFO Adding pending set for TX-lottery Powerball
-[2026-10-04 00:35:16,529] INFO Adding pending set: game=Powerball, state=TX-lottery, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:16,530] INFO TX-lottery Powerball held for corroboration.
-[2026-10-04 00:35:16,530] INFO Processing game: Mega Millions for state: TX-lottery
-[2026-10-04 00:35:16,531] INFO TX-lottery Mega Millions matches global settings. Ignoring.
-[2026-10-04 00:35:16,531] INFO Processing state: CA-lottery
-[2026-10-04 00:35:17,489] INFO [SUCCESS] Downloaded for CA-lottery
-[2026-10-04 00:35:17,975] INFO [SUCCESS] Extracted for CA-lottery
-[2026-10-04 00:35:17,976] INFO Processing game: Powerball for state: CA-lottery
-[2026-10-04 00:35:17,977] INFO Recording extraction for CA-lottery Powerball
-[2026-10-04 00:35:17,977] INFO Recording extraction: state=CA-lottery, game=Powerball, success=True, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:17,979] INFO Adding pending set for CA-lottery Powerball
-[2026-10-04 00:35:17,979] INFO Adding pending set: game=Powerball, state=CA-lottery, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:17,981] INFO CA-lottery Powerball held for corroboration.
-[2026-10-04 00:35:17,982] INFO Marking corroborated for Powerball by ['ND-lottery', 'CA-lottery']
-[2026-10-04 00:35:17,982] INFO Marking corroborated: game=Powerball, timestamp=2026-10-04T00:35:11-0700
-[2026-10-04 00:35:17,983] INFO Corroborated: Powerball by ['ND-lottery', 'CA-lottery']
-[2026-10-04 00:35:17,983] INFO Processing game: Mega Millions for state: CA-lottery
-[2026-10-04 00:35:17,984] INFO CA-lottery Mega Millions matches global settings. Ignoring.
-[2026-10-04 00:35:17,984] INFO All required games have nextDraw after today. Stopping further processing.
-[2026-10-04 00:35:17,985] INFO Changes detected. Saving global_settings.json.
-[2026-10-04 00:35:17,991] INFO Copied global_settings.json to C:\Development\repos\lotto-config\global_settings.json
+[2026-10-05 21:54:59,699] INFO === Starting automate_lottery_update.py ===
+[2026-10-05 21:54:59,699] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-10-05 21:55:00,984] INFO Processing state: MN-lottery
+[2026-10-05 21:55:06,685] INFO [SUCCESS] Downloaded for MN-lottery
+[2026-10-05 21:55:07,276] INFO [SUCCESS] Extracted for MN-lottery
+[2026-10-05 21:55:07,282] INFO Processing game: Powerball for state: MN-lottery
+[2026-10-05 21:55:07,283] INFO Recording extraction for MN-lottery Powerball
+[2026-10-05 21:55:07,283] INFO Recording extraction: state=MN-lottery, game=Powerball, success=True, timestamp=2026-10-05T21:55:00-0700
+[2026-10-05 21:55:07,284] INFO Adding pending set for MN-lottery Powerball
+[2026-10-05 21:55:07,284] INFO Adding pending set: game=Powerball, state=MN-lottery, timestamp=2026-10-05T21:55:00-0700
+[2026-10-05 21:55:07,286] INFO MN-lottery Powerball held for corroboration.
+[2026-10-05 21:55:07,286] INFO Processing game: Mega Millions for state: MN-lottery
+[2026-10-05 21:55:07,287] INFO MN-lottery Mega Millions matches global settings. Ignoring.
+[2026-10-05 21:55:07,287] INFO Processing state: MS-lottery
+[2026-10-05 21:55:08,715] INFO [SUCCESS] Downloaded for MS-lottery
+[2026-10-05 21:55:10,046] INFO [SUCCESS] Extracted for MS-lottery
+[2026-10-05 21:55:10,047] INFO Processing game: Powerball for state: MS-lottery
+[2026-10-05 21:55:10,047] INFO Recording extraction for MS-lottery Powerball
+[2026-10-05 21:55:10,048] INFO Recording extraction: state=MS-lottery, game=Powerball, success=True, timestamp=2026-10-05T21:55:00-0700
+[2026-10-05 21:55:10,049] INFO Adding pending set for MS-lottery Powerball
+[2026-10-05 21:55:10,049] INFO Adding pending set: game=Powerball, state=MS-lottery, timestamp=2026-10-05T21:55:00-0700
+[2026-10-05 21:55:10,050] INFO MS-lottery Powerball held for corroboration.
+[2026-10-05 21:55:10,050] INFO Marking corroborated for Powerball by ['MN-lottery', 'MS-lottery']
+[2026-10-05 21:55:10,050] INFO Marking corroborated: game=Powerball, timestamp=2026-10-05T21:55:00-0700
+[2026-10-05 21:55:10,052] INFO Corroborated: Powerball by ['MN-lottery', 'MS-lottery']
+[2026-10-05 21:55:10,052] INFO Processing game: Mega Millions for state: MS-lottery
+[2026-10-05 21:55:10,053] INFO MS-lottery Mega Millions matches global settings. Ignoring.
+[2026-10-05 21:55:10,053] INFO All required games have nextDraw after today. Stopping further processing.
+[2026-10-05 21:55:10,054] INFO Changes detected. Saving global_settings.json.
+[2026-10-05 21:55:10,083] INFO Copied global_settings.json to C:\Development\repos\lotto-config\global_settings.json
