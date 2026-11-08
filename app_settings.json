@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "ratesAsOf": "2026-11-06",
+  "remoteConfigUrl": "https://raw.githubusercontent.com/tbailey68/lotto-config/refs/heads/main/global_settings.json",
+  "jackpotEstimatesUrl": "https://raw.githubusercontent.com/tbailey68/lotto-config/refs/heads/main/jackpot_estimates.json",
+  "appSettingsUrl": "https://raw.githubusercontent.com/tbailey68/lotto-config/refs/heads/main/app_settings.json",
+  "defaultJackpot": 100000000.0,
+  "defaultCashValue": 50000000.0,
+  "defaultInitialHoldout": 5000000.0,
+  "defaultYearlyDraw": 1500000.0,
+  "defaultTaxRate": 0.37,
+  "defaultAvgReturn": 0.075,
+  "defaultAnnualDividends": 0.0118,
+  "defaultWithdrawalLimitRate": 0.035,
+  "appVersion": "0.1.146",
+  "adsEnabled": true,
+  "maintenanceMode": false,
+  "announcement": "Welcome to Lotto Dreams!",
+  "maxFederalTaxRate": 0.37,
+  "maxFederalDividendsTaxRate": 0.238,
+  "maxFederalGiftLimit": 20000.0,
+  "zero": 0.0,
+  "states": [
+    {
+      "name": "Alabama",
+      "abbreviation": "AL",
+      "lottoMaxTaxRate": 0.05,
+      "dividendsTaxRate": 0.05
+    },
+    {
+      "name": "Alaska",
+      "abbreviation": "AK",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Arizona",
+      "abbreviation": "AZ",
+      "lottoMaxTaxRate": 0.025,
+      "dividendsTaxRate": 0.01875
+    },
+    {
+      "name": "Arkansas",
+      "abbreviation": "AR",
+      "lottoMaxTaxRate": 0.037,
+      "dividendsTaxRate": 0.0185
+    },
+    {
+      "name": "California",
+      "abbreviation": "CA",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.133
+    },
+    {
+      "name": "Colorado",
+      "abbreviation": "CO",
+      "lottoMaxTaxRate": 0.044,
+      "dividendsTaxRate": 0.044
+    },
+    {
+      "name": "Connecticut",
+      "abbreviation": "CT",
+      "lottoMaxTaxRate": 0.0699,
+      "dividendsTaxRate": 0.0699
+    },
+    {
+      "name": "Delaware",
+      "abbreviation": "DE",
+      "lottoMaxTaxRate": 0.066,
+      "dividendsTaxRate": 0.066
+    },
+    {
+      "name": "Florida",
+      "abbreviation": "FL",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Georgia",
+      "abbreviation": "GA",
+      "lottoMaxTaxRate": 0.0499,
+      "dividendsTaxRate": 0.0499
+    },
+    {
+      "name": "Hawaii",
+      "abbreviation": "HI",
+      "lottoMaxTaxRate": 0.13,
+      "dividendsTaxRate": 0.0725
+    },
+    {
+      "name": "Idaho",
+      "abbreviation": "ID",
+      "lottoMaxTaxRate": 0.053,
+      "dividendsTaxRate": 0.053
+    },
+    {
+      "name": "Illinois",
+      "abbreviation": "IL",
+      "lottoMaxTaxRate": 0.0495,
+      "dividendsTaxRate": 0.0495
+    },
+    {
+      "name": "Indiana",
+      "abbreviation": "IN",
+      "lottoMaxTaxRate": 0.029,
+      "dividendsTaxRate": 0.029
+    },
+    {
+      "name": "Iowa",
+      "abbreviation": "IA",
+      "lottoMaxTaxRate": 0.038,
+      "dividendsTaxRate": 0.038
+    },
+    {
+      "name": "Kansas",
+      "abbreviation": "KS",
+      "lottoMaxTaxRate": 0.0558,
+      "dividendsTaxRate": 0.0558
+    },
+    {
+      "name": "Kentucky",
+      "abbreviation": "KY",
+      "lottoMaxTaxRate": 0.035,
+      "dividendsTaxRate": 0.035
+    },
+    {
+      "name": "Louisiana",
+      "abbreviation": "LA",
+      "lottoMaxTaxRate": 0.03,
+      "dividendsTaxRate": 0.03
+    },
+    {
+      "name": "Maine",
+      "abbreviation": "ME",
+      "lottoMaxTaxRate": 0.0915,
+      "dividendsTaxRate": 0.0915
+    },
+    {
+      "name": "Maryland",
+      "abbreviation": "MD",
+      "lottoMaxTaxRate": 0.065,
+      "dividendsTaxRate": 0.085
+    },
+    {
+      "name": "Massachusetts",
+      "abbreviation": "MA",
+      "lottoMaxTaxRate": 0.09,
+      "dividendsTaxRate": 0.09
+    },
+    {
+      "name": "Michigan",
+      "abbreviation": "MI",
+      "lottoMaxTaxRate": 0.0425,
+      "dividendsTaxRate": 0.0425
+    },
+    {
+      "name": "Minnesota",
+      "abbreviation": "MN",
+      "lottoMaxTaxRate": 0.0985,
+      "dividendsTaxRate": 0.1085
+    },
+    {
+      "name": "Mississippi",
+      "abbreviation": "MS",
+      "lottoMaxTaxRate": 0.0375,
+      "dividendsTaxRate": 0.0375
+    },
+    {
+      "name": "Missouri",
+      "abbreviation": "MO",
+      "lottoMaxTaxRate": 0.047,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Montana",
+      "abbreviation": "MT",
+      "lottoMaxTaxRate": 0.054,
+      "dividendsTaxRate": 0.041
+    },
+    {
+      "name": "Nebraska",
+      "abbreviation": "NE",
+      "lottoMaxTaxRate": 0.0399,
+      "dividendsTaxRate": 0.0399
+    },
+    {
+      "name": "Nevada",
+      "abbreviation": "NV",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "New Hampshire",
+      "abbreviation": "NH",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "New Jersey",
+      "abbreviation": "NJ",
+      "lottoMaxTaxRate": 0.1075,
+      "dividendsTaxRate": 0.1075
+    },
+    {
+      "name": "New Mexico",
+      "abbreviation": "NM",
+      "lottoMaxTaxRate": 0.059,
+      "dividendsTaxRate": 0.059
+    },
+    {
+      "name": "New York",
+      "abbreviation": "NY",
+      "lottoMaxTaxRate": 0.109,
+      "dividendsTaxRate": 0.109
+    },
+    {
+      "name": "North Carolina",
+      "abbreviation": "NC",
+      "lottoMaxTaxRate": 0.0349,
+      "dividendsTaxRate": 0.0349
+    },
+    {
+      "name": "North Dakota",
+      "abbreviation": "ND",
+      "lottoMaxTaxRate": 0.025,
+      "dividendsTaxRate": 0.015
+    },
+    {
+      "name": "Ohio",
+      "abbreviation": "OH",
+      "lottoMaxTaxRate": 0.0275,
+      "dividendsTaxRate": 0.0275
+    },
+    {
+      "name": "Oklahoma",
+      "abbreviation": "OK",
+      "lottoMaxTaxRate": 0.045,
+      "dividendsTaxRate": 0.045
+    },
+    {
+      "name": "Oregon",
+      "abbreviation": "OR",
+      "lottoMaxTaxRate": 0.099,
+      "dividendsTaxRate": 0.099
+    },
+    {
+      "name": "Pennsylvania",
+      "abbreviation": "PA",
+      "lottoMaxTaxRate": 0.0307,
+      "dividendsTaxRate": 0.0307
+    },
+    {
+      "name": "Rhode Island",
+      "abbreviation": "RI",
+      "lottoMaxTaxRate": 0.0699,
+      "dividendsTaxRate": 0.0699
+    },
+    {
+      "name": "South Carolina",
+      "abbreviation": "SC",
+      "lottoMaxTaxRate": 0.0521,
+      "dividendsTaxRate": 0.029176
+    },
+    {
+      "name": "South Dakota",
+      "abbreviation": "SD",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Tennessee",
+      "abbreviation": "TN",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Texas",
+      "abbreviation": "TX",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "Utah",
+      "abbreviation": "UT",
+      "lottoMaxTaxRate": 0.0445,
+      "dividendsTaxRate": 0.0445
+    },
+    {
+      "name": "Vermont",
+      "abbreviation": "VT",
+      "lottoMaxTaxRate": 0.0875,
+      "dividendsTaxRate": 0.0875
+    },
+    {
+      "name": "Virginia",
+      "abbreviation": "VA",
+      "lottoMaxTaxRate": 0.0575,
+      "dividendsTaxRate": 0.0575
+    },
+    {
+      "name": "Washington",
+      "abbreviation": "WA",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.099
+    },
+    {
+      "name": "West Virginia",
+      "abbreviation": "WV",
+      "lottoMaxTaxRate": 0.0458,
+      "dividendsTaxRate": 0.0458
+    },
+    {
+      "name": "Wisconsin",
+      "abbreviation": "WI",
+      "lottoMaxTaxRate": 0.0765,
+      "dividendsTaxRate": 0.05355
+    },
+    {
+      "name": "Wyoming",
+      "abbreviation": "WY",
+      "lottoMaxTaxRate": 0.0,
+      "dividendsTaxRate": 0.0
+    },
+    {
+      "name": "District of Columbia",
+      "abbreviation": "DC",
+      "lottoMaxTaxRate": 0.1075,
+      "dividendsTaxRate": 0.1075
+    }
+  ]
+}
