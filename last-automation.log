@@ -75,3 +75,386 @@
 [2026-11-14 00:51:42,461] INFO VA-lottery Mega Millions already updated today (global_settings.json). Skipping.
 [2026-11-14 00:51:42,462] INFO Changes detected. Saving global_settings.json.
 [2026-11-14 00:51:42,470] INFO Copied global_settings.json to C:\Development\repos\lotto-config\global_settings.json
+[2026-11-14 00:51:45,436] INFO Committed and pushed global_settings.json and last-automation.log to remote repo.
+[2026-11-14 00:51:45,437] INFO Updated global_settings.json for Powerball with corroborated values.
+[2026-11-14 00:51:45,485] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 01:36:30,165] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 01:36:30,165] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 01:36:30,227] INFO Processing state: NY-lottery
+[2026-11-14 01:36:31,511] INFO [SUCCESS] Downloaded for NY-lottery
+[2026-11-14 01:36:31,996] INFO [SUCCESS] Extracted for NY-lottery
+[2026-11-14 01:36:31,998] INFO Processing game: Powerball for state: NY-lottery
+[2026-11-14 01:36:31,999] INFO NY-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:31,999] INFO Processing game: Mega Millions for state: NY-lottery
+[2026-11-14 01:36:31,999] INFO NY-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:32,000] INFO Processing state: WA-lottery
+[2026-11-14 01:36:33,135] INFO [SUCCESS] Downloaded for WA-lottery
+[2026-11-14 01:36:33,713] INFO [SUCCESS] Extracted for WA-lottery
+[2026-11-14 01:36:33,720] INFO Processing game: Powerball for state: WA-lottery
+[2026-11-14 01:36:33,721] WARNING WA-lottery Powerball nextDraw parse error: time data 'TONIGHT' does not match format '%Y-%m-%d'. Ignoring.
+[2026-11-14 01:36:33,721] INFO Processing game: Mega Millions for state: WA-lottery
+[2026-11-14 01:36:33,721] INFO WA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:33,722] INFO Processing state: NC-lottery
+[2026-11-14 01:36:35,036] INFO [SUCCESS] Downloaded for NC-lottery
+[2026-11-14 01:36:35,621] INFO [SUCCESS] Extracted for NC-lottery
+[2026-11-14 01:36:35,621] INFO Processing game: Powerball for state: NC-lottery
+[2026-11-14 01:36:35,622] INFO NC-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 01:36:35,622] INFO Processing game: Mega Millions for state: NC-lottery
+[2026-11-14 01:36:35,622] INFO NC-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 01:36:35,623] INFO Processing state: CO-lottery
+[2026-11-14 01:36:37,001] INFO [SUCCESS] Downloaded for CO-lottery
+[2026-11-14 01:36:37,575] INFO [SUCCESS] Extracted for CO-lottery
+[2026-11-14 01:36:37,576] INFO Processing game: Powerball for state: CO-lottery
+[2026-11-14 01:36:37,577] INFO CO-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:37,577] INFO Processing game: Mega Millions for state: CO-lottery
+[2026-11-14 01:36:37,578] INFO CO-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:37,578] INFO Processing state: IA-lottery
+[2026-11-14 01:36:39,085] INFO [SUCCESS] Downloaded for IA-lottery
+[2026-11-14 01:36:39,753] INFO [SUCCESS] Extracted for IA-lottery
+[2026-11-14 01:36:39,755] INFO Processing game: Powerball for state: IA-lottery
+[2026-11-14 01:36:39,755] INFO IA-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 01:36:39,755] INFO Processing game: Mega Millions for state: IA-lottery
+[2026-11-14 01:36:39,755] INFO IA-lottery Mega Millions nextDraw 2026-11-13 is in the past. Ignoring.
+[2026-11-14 01:36:39,756] INFO No changes detected. global_settings.json not updated.
+[2026-11-14 01:36:39,799] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 02:21:30,190] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 02:21:30,190] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 02:21:30,253] INFO Processing state: NJ-lottery
+[2026-11-14 02:21:31,515] INFO [SUCCESS] Downloaded for NJ-lottery
+[2026-11-14 02:21:31,976] INFO [SUCCESS] Extracted for NJ-lottery
+[2026-11-14 02:21:31,977] INFO Processing game: Powerball for state: NJ-lottery
+[2026-11-14 02:21:31,978] INFO NJ-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 02:21:31,978] INFO Processing game: Mega Millions for state: NJ-lottery
+[2026-11-14 02:21:31,979] INFO NJ-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 02:21:31,979] INFO Processing state: PA-lottery
+[2026-11-14 02:21:33,396] INFO [SUCCESS] Downloaded for PA-lottery
+[2026-11-14 02:21:33,865] WARNING [FAIL] Extract for PA-lottery: rc=1 msg=[ERROR] Error extracting PA-lottery: Failed to load local API file ./output\Pennsylvania\PA-lottery_raw_api.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+[2026-11-14 02:21:33,865] INFO Processing state: CA-lottery
+[2026-11-14 02:21:34,905] INFO [SUCCESS] Downloaded for CA-lottery
+[2026-11-14 02:21:35,452] INFO [SUCCESS] Extracted for CA-lottery
+[2026-11-14 02:21:35,453] INFO Processing game: Powerball for state: CA-lottery
+[2026-11-14 02:21:35,454] INFO CA-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 02:21:35,454] INFO Processing game: Mega Millions for state: CA-lottery
+[2026-11-14 02:21:35,455] INFO CA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 02:21:35,455] INFO Processing state: MN-lottery
+[2026-11-14 02:21:36,505] INFO [SUCCESS] Downloaded for MN-lottery
+[2026-11-14 02:21:37,169] INFO [SUCCESS] Extracted for MN-lottery
+[2026-11-14 02:21:37,169] INFO Processing game: Powerball for state: MN-lottery
+[2026-11-14 02:21:37,169] INFO MN-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 02:21:37,170] INFO Processing game: Mega Millions for state: MN-lottery
+[2026-11-14 02:21:37,170] INFO MN-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 02:21:37,170] INFO Processing state: CT-lottery
+[2026-11-14 02:21:39,599] INFO [SUCCESS] Downloaded for CT-lottery
+[2026-11-14 02:21:40,747] INFO [SUCCESS] Extracted for CT-lottery
+[2026-11-14 02:21:40,748] INFO Processing game: Powerball for state: CT-lottery
+[2026-11-14 02:21:40,748] INFO CT-lottery Powerball nextDraw 2026-08-19 is in the past. Ignoring.
+[2026-11-14 02:21:40,748] INFO Processing game: Mega Millions for state: CT-lottery
+[2026-11-14 02:21:40,749] INFO CT-lottery Mega Millions nextDraw 2026-08-21 is in the past. Ignoring.
+[2026-11-14 02:21:40,749] INFO No changes detected. global_settings.json not updated.
+[2026-11-14 02:21:40,791] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 03:06:30,145] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 03:06:30,145] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 03:06:30,203] INFO Processing state: MS-lottery
+[2026-11-14 03:06:31,372] INFO [SUCCESS] Downloaded for MS-lottery
+[2026-11-14 03:06:32,532] INFO [SUCCESS] Extracted for MS-lottery
+[2026-11-14 03:06:32,533] INFO Processing game: Powerball for state: MS-lottery
+[2026-11-14 03:06:32,534] INFO MS-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:32,534] INFO Processing game: Mega Millions for state: MS-lottery
+[2026-11-14 03:06:32,534] INFO MS-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:32,535] INFO Processing state: NM-lottery
+[2026-11-14 03:06:33,873] INFO [SUCCESS] Downloaded for NM-lottery
+[2026-11-14 03:06:34,332] INFO [SUCCESS] Extracted for NM-lottery
+[2026-11-14 03:06:34,334] INFO Processing game: Powerball for state: NM-lottery
+[2026-11-14 03:06:34,334] INFO NM-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:34,335] INFO Processing game: Mega Millions for state: NM-lottery
+[2026-11-14 03:06:34,335] INFO NM-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:34,335] INFO Processing state: OH-lottery
+[2026-11-14 03:06:35,610] INFO [SUCCESS] Downloaded for OH-lottery
+[2026-11-14 03:06:36,210] INFO [SUCCESS] Extracted for OH-lottery
+[2026-11-14 03:06:36,212] INFO Processing game: Powerball for state: OH-lottery
+[2026-11-14 03:06:36,212] INFO OH-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:36,212] INFO Processing game: Mega Millions for state: OH-lottery
+[2026-11-14 03:06:36,213] INFO OH-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:36,213] INFO Processing state: ND-lottery
+[2026-11-14 03:06:38,302] INFO [SUCCESS] Downloaded for ND-lottery
+[2026-11-14 03:06:39,366] INFO [SUCCESS] Extracted for ND-lottery
+[2026-11-14 03:06:39,367] INFO Processing game: Powerball for state: ND-lottery
+[2026-11-14 03:06:39,368] INFO ND-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:39,368] INFO Processing game: Mega Millions for state: ND-lottery
+[2026-11-14 03:06:39,368] INFO ND-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:39,369] INFO Processing state: TX-lottery
+[2026-11-14 03:06:40,588] INFO [SUCCESS] Downloaded for TX-lottery
+[2026-11-14 03:06:41,076] INFO [SUCCESS] Extracted for TX-lottery
+[2026-11-14 03:06:41,077] INFO Processing game: Powerball for state: TX-lottery
+[2026-11-14 03:06:41,078] INFO TX-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:41,078] INFO Processing game: Mega Millions for state: TX-lottery
+[2026-11-14 03:06:41,079] INFO TX-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:06:41,079] INFO No changes detected. global_settings.json not updated.
+[2026-11-14 03:06:41,129] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 03:51:30,132] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 03:51:30,133] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 03:51:30,187] INFO Processing state: OK-lottery
+[2026-11-14 03:51:32,588] INFO [SUCCESS] Downloaded for OK-lottery
+[2026-11-14 03:51:33,530] WARNING [FAIL] Extract for OK-lottery: rc=1 msg=[ERROR] Error extracting OK-lottery: Failed to load local API file ./output\Oklahoma\OK-lottery_raw_api.json: Expecting value: line 1 column 1 (char 0)
+[2026-11-14 03:51:33,531] INFO Processing state: VA-lottery
+[2026-11-14 03:51:35,065] INFO [SUCCESS] Downloaded for VA-lottery
+[2026-11-14 03:51:35,739] INFO [SUCCESS] Extracted for VA-lottery
+[2026-11-14 03:51:35,741] INFO Processing game: Powerball for state: VA-lottery
+[2026-11-14 03:51:35,741] INFO VA-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:51:35,741] INFO Processing game: Mega Millions for state: VA-lottery
+[2026-11-14 03:51:35,742] INFO VA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:51:35,742] INFO Processing state: NY-lottery
+[2026-11-14 03:51:36,723] INFO [SUCCESS] Downloaded for NY-lottery
+[2026-11-14 03:51:37,189] INFO [SUCCESS] Extracted for NY-lottery
+[2026-11-14 03:51:37,191] INFO Processing game: Powerball for state: NY-lottery
+[2026-11-14 03:51:37,191] INFO NY-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 03:51:37,191] INFO Processing game: Mega Millions for state: NY-lottery
+[2026-11-14 03:51:37,192] INFO NY-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:51:37,192] INFO Processing state: WA-lottery
+[2026-11-14 03:51:38,286] INFO [SUCCESS] Downloaded for WA-lottery
+[2026-11-14 03:51:38,851] INFO [SUCCESS] Extracted for WA-lottery
+[2026-11-14 03:51:38,852] INFO Processing game: Powerball for state: WA-lottery
+[2026-11-14 03:51:38,852] WARNING WA-lottery Powerball nextDraw parse error: time data 'TONIGHT' does not match format '%Y-%m-%d'. Ignoring.
+[2026-11-14 03:51:38,853] INFO Processing game: Mega Millions for state: WA-lottery
+[2026-11-14 03:51:38,853] INFO WA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 03:51:38,854] INFO Processing state: NC-lottery
+[2026-11-14 03:51:40,142] INFO [SUCCESS] Downloaded for NC-lottery
+[2026-11-14 03:51:40,664] INFO [SUCCESS] Extracted for NC-lottery
+[2026-11-14 03:51:40,665] INFO Processing game: Powerball for state: NC-lottery
+[2026-11-14 03:51:40,665] INFO NC-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 03:51:40,665] INFO Processing game: Mega Millions for state: NC-lottery
+[2026-11-14 03:51:40,665] INFO NC-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 03:51:40,666] INFO No changes detected. global_settings.json not updated.
+[2026-11-14 03:51:40,710] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 04:36:30,214] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 04:36:30,215] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 04:36:30,277] INFO Processing state: CO-lottery
+[2026-11-14 04:36:31,335] INFO [SUCCESS] Downloaded for CO-lottery
+[2026-11-14 04:36:31,940] INFO [SUCCESS] Extracted for CO-lottery
+[2026-11-14 04:36:31,941] INFO Processing game: Powerball for state: CO-lottery
+[2026-11-14 04:36:31,941] INFO CO-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:31,941] INFO Processing game: Mega Millions for state: CO-lottery
+[2026-11-14 04:36:31,942] INFO CO-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:31,942] INFO Processing state: IA-lottery
+[2026-11-14 04:36:34,131] INFO [SUCCESS] Downloaded for IA-lottery
+[2026-11-14 04:36:34,798] INFO [SUCCESS] Extracted for IA-lottery
+[2026-11-14 04:36:34,799] INFO Processing game: Powerball for state: IA-lottery
+[2026-11-14 04:36:34,800] INFO IA-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:34,800] INFO Processing game: Mega Millions for state: IA-lottery
+[2026-11-14 04:36:34,801] INFO IA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:34,801] INFO Processing state: NJ-lottery
+[2026-11-14 04:36:35,996] INFO [SUCCESS] Downloaded for NJ-lottery
+[2026-11-14 04:36:36,447] INFO [SUCCESS] Extracted for NJ-lottery
+[2026-11-14 04:36:36,448] INFO Processing game: Powerball for state: NJ-lottery
+[2026-11-14 04:36:36,449] INFO NJ-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:36,449] INFO Processing game: Mega Millions for state: NJ-lottery
+[2026-11-14 04:36:36,449] INFO NJ-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:36,450] INFO Processing state: PA-lottery
+[2026-11-14 04:36:37,746] INFO [SUCCESS] Downloaded for PA-lottery
+[2026-11-14 04:36:38,197] WARNING [FAIL] Extract for PA-lottery: rc=1 msg=[ERROR] Error extracting PA-lottery: Failed to load local API file ./output\Pennsylvania\PA-lottery_raw_api.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+[2026-11-14 04:36:38,197] INFO Processing state: CA-lottery
+[2026-11-14 04:36:39,203] INFO [SUCCESS] Downloaded for CA-lottery
+[2026-11-14 04:36:39,739] INFO [SUCCESS] Extracted for CA-lottery
+[2026-11-14 04:36:39,740] INFO Processing game: Powerball for state: CA-lottery
+[2026-11-14 04:36:39,741] INFO CA-lottery Powerball already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:39,741] INFO Processing game: Mega Millions for state: CA-lottery
+[2026-11-14 04:36:39,742] INFO CA-lottery Mega Millions already updated today (global_settings.json). Skipping.
+[2026-11-14 04:36:39,742] INFO No changes detected. global_settings.json not updated.
+[2026-11-14 04:36:39,786] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 22:11:34,460] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 22:11:34,460] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 22:11:34,474] INFO Fetching latest jackpot data from remote repo...
+[2026-11-14 22:11:35,388] INFO Copied C:\Development\repos\lotto-config\global_settings.json to working folder as jackpot_estimates.json
+[2026-11-14 22:11:35,487] INFO Processing state: MN-lottery
+[2026-11-14 22:11:39,520] INFO [SUCCESS] Downloaded for MN-lottery
+[2026-11-14 22:11:40,190] INFO [SUCCESS] Extracted for MN-lottery
+[2026-11-14 22:11:40,191] INFO Processing game: Powerball for state: MN-lottery
+[2026-11-14 22:11:40,191] INFO MN-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 22:11:40,191] INFO Processing game: Mega Millions for state: MN-lottery
+[2026-11-14 22:11:40,191] INFO MN-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 22:11:40,192] INFO Processing state: CT-lottery
+[2026-11-14 22:11:42,539] INFO [SUCCESS] Downloaded for CT-lottery
+[2026-11-14 22:11:43,760] INFO [SUCCESS] Extracted for CT-lottery
+[2026-11-14 22:11:43,760] INFO Processing game: Powerball for state: CT-lottery
+[2026-11-14 22:11:43,760] INFO CT-lottery Powerball nextDraw 2026-08-19 is in the past. Ignoring.
+[2026-11-14 22:11:43,761] INFO Processing game: Mega Millions for state: CT-lottery
+[2026-11-14 22:11:43,761] INFO CT-lottery Mega Millions nextDraw 2026-08-21 is in the past. Ignoring.
+[2026-11-14 22:11:43,761] INFO Processing state: MS-lottery
+[2026-11-14 22:11:44,958] INFO [SUCCESS] Downloaded for MS-lottery
+[2026-11-14 22:11:46,279] INFO [SUCCESS] Extracted for MS-lottery
+[2026-11-14 22:11:46,286] INFO Processing game: Powerball for state: MS-lottery
+[2026-11-14 22:11:46,286] INFO MS-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:46,286] INFO Processing game: Mega Millions for state: MS-lottery
+[2026-11-14 22:11:46,287] INFO MS-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:46,287] INFO Processing state: NM-lottery
+[2026-11-14 22:11:48,233] INFO [SUCCESS] Downloaded for NM-lottery
+[2026-11-14 22:11:48,725] INFO [SUCCESS] Extracted for NM-lottery
+[2026-11-14 22:11:48,726] INFO Processing game: Powerball for state: NM-lottery
+[2026-11-14 22:11:48,726] INFO NM-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:48,726] INFO Processing game: Mega Millions for state: NM-lottery
+[2026-11-14 22:11:48,727] INFO NM-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:48,727] INFO Processing state: OH-lottery
+[2026-11-14 22:11:50,084] INFO [SUCCESS] Downloaded for OH-lottery
+[2026-11-14 22:11:50,704] INFO [SUCCESS] Extracted for OH-lottery
+[2026-11-14 22:11:50,705] INFO Processing game: Powerball for state: OH-lottery
+[2026-11-14 22:11:50,706] INFO OH-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:50,706] INFO Processing game: Mega Millions for state: OH-lottery
+[2026-11-14 22:11:50,707] INFO OH-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:11:50,707] INFO No changes detected. jackpot_estimates.json not updated.
+[2026-11-14 22:11:50,758] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 22:38:38,607] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 22:38:38,608] INFO Args: force=True, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 22:38:38,630] INFO Fetching latest jackpot data from remote repo...
+[2026-11-14 22:38:39,783] INFO Copied C:\Development\repos\lotto-config\global_settings.json to working folder as jackpot_estimates.json
+[2026-11-14 22:38:39,823] INFO Processing state: ND-lottery
+[2026-11-14 22:38:44,860] INFO [SUCCESS] Downloaded for ND-lottery
+[2026-11-14 22:38:46,025] INFO [SUCCESS] Extracted for ND-lottery
+[2026-11-14 22:38:46,028] INFO Processing game: Powerball for state: ND-lottery
+[2026-11-14 22:38:46,028] INFO ND-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:38:46,029] INFO ND-lottery Powerball already corroborated today. Skipping.
+[2026-11-14 22:38:46,029] INFO Processing game: Mega Millions for state: ND-lottery
+[2026-11-14 22:38:46,030] INFO Recording extraction for ND-lottery Mega Millions
+[2026-11-14 22:38:46,030] INFO Recording extraction: state=ND-lottery, game=Mega Millions, success=True, timestamp=2026-11-14T22:38:39-08:00
+[2026-11-14 22:38:46,032] INFO Adding pending set for ND-lottery Mega Millions
+[2026-11-14 22:38:46,032] INFO Adding pending set: game=Mega Millions, state=ND-lottery, timestamp=2026-11-14T22:38:39-08:00
+[2026-11-14 22:38:46,034] INFO ND-lottery Mega Millions held for corroboration.
+[2026-11-14 22:38:46,035] INFO Processing state: TX-lottery
+[2026-11-14 22:38:47,410] INFO [SUCCESS] Downloaded for TX-lottery
+[2026-11-14 22:38:47,960] INFO [SUCCESS] Extracted for TX-lottery
+[2026-11-14 22:38:47,962] INFO Processing game: Powerball for state: TX-lottery
+[2026-11-14 22:38:47,963] INFO TX-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:38:47,963] INFO TX-lottery Powerball already corroborated today. Skipping.
+[2026-11-14 22:38:47,963] INFO Processing game: Mega Millions for state: TX-lottery
+[2026-11-14 22:38:47,964] INFO Recording extraction for TX-lottery Mega Millions
+[2026-11-14 22:38:47,964] INFO Recording extraction: state=TX-lottery, game=Mega Millions, success=True, timestamp=2026-11-14T22:38:39-08:00
+[2026-11-14 22:38:47,966] INFO Adding pending set for TX-lottery Mega Millions
+[2026-11-14 22:38:47,967] INFO Adding pending set: game=Mega Millions, state=TX-lottery, timestamp=2026-11-14T22:38:39-08:00
+[2026-11-14 22:38:47,968] INFO TX-lottery Mega Millions held for corroboration.
+[2026-11-14 22:38:47,969] INFO Marking corroborated for Mega Millions by ['ND-lottery', 'TX-lottery']
+[2026-11-14 22:38:47,969] INFO Marking corroborated: game=Mega Millions, timestamp=2026-11-14T22:38:39-08:00
+[2026-11-14 22:38:47,971] INFO Corroborated: Mega Millions by ['ND-lottery', 'TX-lottery']
+[2026-11-14 22:38:47,971] INFO Processing state: OK-lottery
+[2026-11-14 22:38:50,405] INFO [SUCCESS] Downloaded for OK-lottery
+[2026-11-14 22:38:51,331] WARNING [FAIL] Extract for OK-lottery: rc=1 msg=[ERROR] Error extracting OK-lottery: Failed to load local API file ./output\Oklahoma\OK-lottery_raw_api.json: Expecting value: line 1 column 1 (char 0)
+[2026-11-14 22:38:51,331] INFO Processing state: VA-lottery
+[2026-11-14 22:38:53,085] INFO [SUCCESS] Downloaded for VA-lottery
+[2026-11-14 22:38:53,836] INFO [SUCCESS] Extracted for VA-lottery
+[2026-11-14 22:38:53,843] INFO Processing game: Powerball for state: VA-lottery
+[2026-11-14 22:38:53,844] INFO VA-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:38:53,844] INFO VA-lottery Powerball already corroborated today. Skipping.
+[2026-11-14 22:38:53,844] INFO Processing game: Mega Millions for state: VA-lottery
+[2026-11-14 22:38:53,845] INFO VA-lottery Mega Millions differs from global settings and --force is set. Will update.
+[2026-11-14 22:38:53,845] INFO VA-lottery Mega Millions already corroborated today. Skipping.
+[2026-11-14 22:38:53,846] INFO Processing state: NY-lottery
+[2026-11-14 22:38:55,168] INFO [SUCCESS] Downloaded for NY-lottery
+[2026-11-14 22:38:55,715] INFO [SUCCESS] Extracted for NY-lottery
+[2026-11-14 22:38:55,716] INFO Processing game: Powerball for state: NY-lottery
+[2026-11-14 22:38:55,717] INFO NY-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:38:55,718] INFO NY-lottery Powerball already corroborated today. Skipping.
+[2026-11-14 22:38:55,718] INFO Processing game: Mega Millions for state: NY-lottery
+[2026-11-14 22:38:55,719] INFO NY-lottery Mega Millions already corroborated today. Skipping.
+[2026-11-14 22:38:55,720] INFO No changes detected. jackpot_estimates.json not updated.
+[2026-11-14 22:38:55,791] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 22:56:32,837] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 22:56:32,837] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 22:56:32,862] INFO Fetching latest jackpot data from remote repo...
+[2026-11-14 22:56:33,792] INFO Copied C:\Development\repos\lotto-config\global_settings.json to working folder as jackpot_estimates.json
+[2026-11-14 22:56:33,808] INFO Processing state: WA-lottery
+[2026-11-14 22:56:37,437] INFO [SUCCESS] Downloaded for WA-lottery
+[2026-11-14 22:56:38,119] INFO [SUCCESS] Extracted for WA-lottery
+[2026-11-14 22:56:38,121] INFO Processing game: Powerball for state: WA-lottery
+[2026-11-14 22:56:38,121] INFO WA-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:38,121] INFO Processing game: Mega Millions for state: WA-lottery
+[2026-11-14 22:56:38,122] INFO WA-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:38,122] INFO Processing state: NC-lottery
+[2026-11-14 22:56:39,551] INFO [SUCCESS] Downloaded for NC-lottery
+[2026-11-14 22:56:40,276] INFO [SUCCESS] Extracted for NC-lottery
+[2026-11-14 22:56:40,276] INFO Processing game: Powerball for state: NC-lottery
+[2026-11-14 22:56:40,277] INFO NC-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 22:56:40,277] INFO Processing game: Mega Millions for state: NC-lottery
+[2026-11-14 22:56:40,277] INFO NC-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 22:56:40,277] INFO Processing state: CO-lottery
+[2026-11-14 22:56:41,838] INFO [SUCCESS] Downloaded for CO-lottery
+[2026-11-14 22:56:42,521] INFO [SUCCESS] Extracted for CO-lottery
+[2026-11-14 22:56:42,523] INFO Processing game: Powerball for state: CO-lottery
+[2026-11-14 22:56:42,523] INFO CO-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:42,524] INFO Processing game: Mega Millions for state: CO-lottery
+[2026-11-14 22:56:42,524] INFO CO-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:42,525] INFO Processing state: IA-lottery
+[2026-11-14 22:56:44,743] INFO [SUCCESS] Downloaded for IA-lottery
+[2026-11-14 22:56:45,665] INFO [SUCCESS] Extracted for IA-lottery
+[2026-11-14 22:56:45,666] INFO Processing game: Powerball for state: IA-lottery
+[2026-11-14 22:56:45,667] INFO IA-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:45,667] INFO Processing game: Mega Millions for state: IA-lottery
+[2026-11-14 22:56:45,667] INFO IA-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:45,668] INFO Processing state: NJ-lottery
+[2026-11-14 22:56:47,164] INFO [SUCCESS] Downloaded for NJ-lottery
+[2026-11-14 22:56:47,678] INFO [SUCCESS] Extracted for NJ-lottery
+[2026-11-14 22:56:47,679] INFO Processing game: Powerball for state: NJ-lottery
+[2026-11-14 22:56:47,680] INFO NJ-lottery Powerball already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:47,680] INFO Processing game: Mega Millions for state: NJ-lottery
+[2026-11-14 22:56:47,680] INFO NJ-lottery Mega Millions already updated today (jackpot_estimates.json). Skipping.
+[2026-11-14 22:56:47,681] INFO No changes detected. jackpot_estimates.json not updated.
+[2026-11-14 22:56:47,737] INFO automation.log trimmed to last 30 days of entries.
+[2026-11-14 22:57:17,974] INFO === Starting automate_lottery_update.py ===
+[2026-11-14 22:57:17,974] INFO Args: force=True, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-14 22:57:17,976] INFO Fetching latest jackpot data from remote repo...
+[2026-11-14 22:57:18,986] INFO Copied C:\Development\repos\lotto-config\global_settings.json to working folder as jackpot_estimates.json
+[2026-11-14 22:57:18,997] INFO Processing state: PA-lottery
+[2026-11-14 22:57:20,632] INFO [SUCCESS] Downloaded for PA-lottery
+[2026-11-14 22:57:21,426] WARNING [FAIL] Extract for PA-lottery: rc=1 msg=[ERROR] Error extracting PA-lottery: Failed to load local API file ./output\Pennsylvania\PA-lottery_raw_api.json: Expecting property name enclosed in double quotes: line 1 column 3 (char 2)
+[2026-11-14 22:57:21,427] INFO Processing state: CA-lottery
+[2026-11-14 22:57:22,790] INFO [SUCCESS] Downloaded for CA-lottery
+[2026-11-14 22:57:23,492] INFO [SUCCESS] Extracted for CA-lottery
+[2026-11-14 22:57:23,493] INFO Processing game: Powerball for state: CA-lottery
+[2026-11-14 22:57:23,494] INFO CA-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:57:23,494] INFO Recording extraction for CA-lottery Powerball
+[2026-11-14 22:57:23,494] INFO Recording extraction: state=CA-lottery, game=Powerball, success=True, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:23,495] INFO Adding pending set for CA-lottery Powerball
+[2026-11-14 22:57:23,496] INFO Adding pending set: game=Powerball, state=CA-lottery, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:23,497] INFO CA-lottery Powerball held for corroboration.
+[2026-11-14 22:57:23,497] INFO Processing game: Mega Millions for state: CA-lottery
+[2026-11-14 22:57:23,498] INFO Recording extraction for CA-lottery Mega Millions
+[2026-11-14 22:57:23,498] INFO Recording extraction: state=CA-lottery, game=Mega Millions, success=True, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:23,499] INFO Adding pending set for CA-lottery Mega Millions
+[2026-11-14 22:57:23,499] INFO Adding pending set: game=Mega Millions, state=CA-lottery, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:23,500] INFO CA-lottery Mega Millions held for corroboration.
+[2026-11-14 22:57:23,501] INFO Processing state: MN-lottery
+[2026-11-14 22:57:24,885] INFO [SUCCESS] Downloaded for MN-lottery
+[2026-11-14 22:57:25,642] INFO [SUCCESS] Extracted for MN-lottery
+[2026-11-14 22:57:25,643] INFO Processing game: Powerball for state: MN-lottery
+[2026-11-14 22:57:25,643] INFO MN-lottery Powerball nextDraw 2026-11-04 is in the past. Ignoring.
+[2026-11-14 22:57:25,643] INFO Processing game: Mega Millions for state: MN-lottery
+[2026-11-14 22:57:25,643] INFO MN-lottery Mega Millions nextDraw 2026-11-06 is in the past. Ignoring.
+[2026-11-14 22:57:25,643] INFO Processing state: CT-lottery
+[2026-11-14 22:57:28,699] INFO [SUCCESS] Downloaded for CT-lottery
+[2026-11-14 22:57:29,859] INFO [SUCCESS] Extracted for CT-lottery
+[2026-11-14 22:57:29,860] INFO Processing game: Powerball for state: CT-lottery
+[2026-11-14 22:57:29,860] INFO CT-lottery Powerball nextDraw 2026-08-19 is in the past. Ignoring.
+[2026-11-14 22:57:29,860] INFO Processing game: Mega Millions for state: CT-lottery
+[2026-11-14 22:57:29,860] INFO CT-lottery Mega Millions nextDraw 2026-08-21 is in the past. Ignoring.
+[2026-11-14 22:57:29,860] INFO Processing state: MS-lottery
+[2026-11-14 22:57:31,257] INFO [SUCCESS] Downloaded for MS-lottery
+[2026-11-14 22:57:32,526] INFO [SUCCESS] Extracted for MS-lottery
+[2026-11-14 22:57:32,527] INFO Processing game: Powerball for state: MS-lottery
+[2026-11-14 22:57:32,528] INFO MS-lottery Powerball differs from global settings and --force is set. Will update.
+[2026-11-14 22:57:32,528] INFO Recording extraction for MS-lottery Powerball
+[2026-11-14 22:57:32,528] INFO Recording extraction: state=MS-lottery, game=Powerball, success=True, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,529] INFO Adding pending set for MS-lottery Powerball
+[2026-11-14 22:57:32,530] INFO Adding pending set: game=Powerball, state=MS-lottery, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,531] INFO MS-lottery Powerball held for corroboration.
+[2026-11-14 22:57:32,531] INFO Marking corroborated for Powerball by ['CA-lottery', 'MS-lottery']
+[2026-11-14 22:57:32,531] INFO Marking corroborated: game=Powerball, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,532] INFO Corroborated: Powerball by ['CA-lottery', 'MS-lottery']
+[2026-11-14 22:57:32,532] INFO Processing game: Mega Millions for state: MS-lottery
+[2026-11-14 22:57:32,533] INFO Recording extraction for MS-lottery Mega Millions
+[2026-11-14 22:57:32,533] INFO Recording extraction: state=MS-lottery, game=Mega Millions, success=True, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,534] INFO Adding pending set for MS-lottery Mega Millions
+[2026-11-14 22:57:32,534] INFO Adding pending set: game=Mega Millions, state=MS-lottery, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,536] INFO MS-lottery Mega Millions held for corroboration.
+[2026-11-14 22:57:32,536] INFO Marking corroborated for Mega Millions by ['CA-lottery', 'MS-lottery']
+[2026-11-14 22:57:32,536] INFO Marking corroborated: game=Mega Millions, timestamp=2026-11-14T22:57:18-08:00
+[2026-11-14 22:57:32,538] INFO Corroborated: Mega Millions by ['CA-lottery', 'MS-lottery']
+[2026-11-14 22:57:32,538] INFO Changes detected. Saving jackpot_estimates.json.
+[2026-11-14 22:57:32,547] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\jackpot_estimates.json
+[2026-11-14 22:57:32,549] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\global_settings.json
