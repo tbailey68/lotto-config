@@ -1,29 +1,71 @@
-[2026-11-23 22:01:03,269] INFO === Starting automate_lottery_update.py ===
-[2026-11-23 22:01:03,269] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
-[2026-11-23 22:01:03,281] INFO Fetching latest jackpot data from remote repo...
-[2026-11-23 22:01:04,900] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
-[2026-11-23 22:01:04,944] INFO Powerball: due (published draw 2026-11-23 at 8:00 PM has happened)
-[2026-11-23 22:01:04,944] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
-[2026-11-23 22:01:05,306] INFO Processing state: CA-lottery
-[2026-11-23 22:01:10,844] INFO [SUCCESS] Downloaded for CA-lottery
-[2026-11-23 22:01:11,986] INFO [SUCCESS] Extracted for CA-lottery
-[2026-11-23 22:01:11,994] INFO Processing game: Powerball for state: CA-lottery
-[2026-11-23 22:01:11,994] INFO Recording extraction: state=CA-lottery, game=Powerball, success=True, timestamp=2026-11-23T22:01:04-08:00
-[2026-11-23 22:01:11,997] INFO Adding pending set for CA-lottery Powerball
-[2026-11-23 22:01:11,997] INFO Adding pending set: game=Powerball, state=CA-lottery, timestamp=2026-11-23T22:01:04-08:00
-[2026-11-23 22:01:11,999] INFO CA-lottery Powerball held for corroboration.
-[2026-11-23 22:01:11,999] INFO Processing state: MN-lottery
-[2026-11-23 22:01:13,301] INFO [SUCCESS] Downloaded for MN-lottery
-[2026-11-23 22:01:14,284] INFO [SUCCESS] Extracted for MN-lottery
-[2026-11-23 22:01:14,291] INFO Processing game: Powerball for state: MN-lottery
-[2026-11-23 22:01:14,291] INFO Recording extraction: state=MN-lottery, game=Powerball, success=True, timestamp=2026-11-23T22:01:04-08:00
-[2026-11-23 22:01:14,293] INFO Adding pending set for MN-lottery Powerball
-[2026-11-23 22:01:14,294] INFO Adding pending set: game=Powerball, state=MN-lottery, timestamp=2026-11-23T22:01:04-08:00
-[2026-11-23 22:01:14,296] INFO MN-lottery Powerball held for corroboration.
-[2026-11-23 22:01:14,296] INFO Marking corroborated for Powerball by ['CA-lottery', 'MN-lottery']
-[2026-11-23 22:01:14,297] INFO Marking corroborated: game=Powerball, timestamp=2026-11-23T22:01:04-08:00
-[2026-11-23 22:01:14,298] INFO Corroborated: Powerball by ['CA-lottery', 'MN-lottery']
-[2026-11-23 22:01:14,298] INFO Every due game has been updated. Stopping further processing.
-[2026-11-23 22:01:14,299] INFO Changes detected. Saving jackpot_estimates.json.
-[2026-11-23 22:01:14,307] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\jackpot_estimates.json
-[2026-11-23 22:01:14,308] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\global_settings.json
+[2026-11-24 00:16:02,548] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 00:16:02,549] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 00:16:02,569] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 00:16:03,876] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 00:16:03,924] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 00:16:03,924] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 00:16:03,924] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 01:01:02,920] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 01:01:02,920] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 01:01:02,939] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 01:01:04,303] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 01:01:04,344] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 01:01:04,345] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 01:01:04,345] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 01:46:02,790] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 01:46:02,790] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 01:46:02,809] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 01:46:04,025] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 01:46:04,072] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 01:46:04,072] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 01:46:04,072] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 02:31:02,735] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 02:31:02,735] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 02:31:02,754] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 02:31:04,113] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 02:31:04,159] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 02:31:04,159] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 02:31:04,160] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 03:16:04,823] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 03:16:04,823] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 03:16:04,842] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 03:16:06,914] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 03:16:06,982] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 03:16:06,982] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 03:16:06,983] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 04:01:02,660] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 04:01:02,661] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 04:01:02,680] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 04:01:03,928] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 04:01:03,978] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 04:01:03,979] INFO Mega Millions: current (next draw 2026-11-24 at 8:00 PM has not happened yet)
+[2026-11-24 04:01:03,979] INFO No game is due. Exiting before downloading anything.
+[2026-11-24 22:00:10,580] INFO === Starting automate_lottery_update.py ===
+[2026-11-24 22:00:10,580] INFO Args: force=False, dry_run=False, log_level=INFO, push_only=False, no_fetch=False
+[2026-11-24 22:00:10,783] INFO Fetching latest jackpot data from remote repo...
+[2026-11-24 22:00:12,123] INFO Copied C:\Development\repos\lotto-config\jackpot_estimates.json to working folder as jackpot_estimates.json
+[2026-11-24 22:00:12,234] INFO Powerball: current (next draw 2026-11-25 at 8:00 PM has not happened yet)
+[2026-11-24 22:00:12,236] INFO Mega Millions: due (published draw 2026-11-24 at 8:00 PM has happened)
+[2026-11-24 22:00:13,477] INFO Processing state: CT-lottery
+[2026-11-24 22:00:22,372] INFO [SUCCESS] Downloaded for CT-lottery
+[2026-11-24 22:00:25,508] INFO [SUCCESS] Extracted for CT-lottery
+[2026-11-24 22:00:25,515] INFO Processing game: Mega Millions for state: CT-lottery
+[2026-11-24 22:00:25,516] INFO Recording extraction: state=CT-lottery, game=Mega Millions, success=True, timestamp=2026-11-24T22:00:12-08:00
+[2026-11-24 22:00:25,518] INFO Adding pending set for CT-lottery Mega Millions
+[2026-11-24 22:00:25,518] INFO Adding pending set: game=Mega Millions, state=CT-lottery, timestamp=2026-11-24T22:00:12-08:00
+[2026-11-24 22:00:25,520] INFO CT-lottery Mega Millions held for corroboration.
+[2026-11-24 22:00:25,520] INFO Processing state: MS-lottery
+[2026-11-24 22:00:26,948] INFO [SUCCESS] Downloaded for MS-lottery
+[2026-11-24 22:00:29,381] INFO [SUCCESS] Extracted for MS-lottery
+[2026-11-24 22:00:29,383] INFO Processing game: Mega Millions for state: MS-lottery
+[2026-11-24 22:00:29,383] INFO Recording extraction: state=MS-lottery, game=Mega Millions, success=True, timestamp=2026-11-24T22:00:12-08:00
+[2026-11-24 22:00:29,385] INFO Adding pending set for MS-lottery Mega Millions
+[2026-11-24 22:00:29,385] INFO Adding pending set: game=Mega Millions, state=MS-lottery, timestamp=2026-11-24T22:00:12-08:00
+[2026-11-24 22:00:29,386] INFO MS-lottery Mega Millions held for corroboration.
+[2026-11-24 22:00:29,386] INFO Marking corroborated for Mega Millions by ['CT-lottery', 'MS-lottery']
+[2026-11-24 22:00:29,386] INFO Marking corroborated: game=Mega Millions, timestamp=2026-11-24T22:00:12-08:00
+[2026-11-24 22:00:29,388] INFO Corroborated: Mega Millions by ['CT-lottery', 'MS-lottery']
+[2026-11-24 22:00:29,389] INFO Every due game has been updated. Stopping further processing.
+[2026-11-24 22:00:29,389] INFO Changes detected. Saving jackpot_estimates.json.
+[2026-11-24 22:00:29,397] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\jackpot_estimates.json
+[2026-11-24 22:00:29,398] INFO Copied jackpot_estimates.json to C:\Development\repos\lotto-config\global_settings.json
