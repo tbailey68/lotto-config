@@ -1,0 +1,5 @@
+{
+  "_comment": "raise_watch options: auto (watch at or above the $800M threshold), on (always watch), off (never check for raises)",
+  "Powerball":     {"raise_watch": "auto"},
+  "Mega Millions": {"raise_watch": "auto"}
+}
